@@ -1,0 +1,35 @@
+.user{
+    height: 180px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+   
+  
+}
+#user-1{
+    background-color: gainsboro;
+}
+#user-2{
+    background-color: rgb(250, 18, 18);
+    
+}
+#user-3{
+    background-color: rgb(20, 235, 170);
+}
+#user-4{
+    background-color: rgb(224, 43, 43);
+}
+
+.user:hover{
+    background-color: rgb(222, 215, 250);
+  
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
